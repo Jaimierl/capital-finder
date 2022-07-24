@@ -23,6 +23,7 @@ class handler(BaseHTTPRequestHandler):
                 cap.append(country_cap)
             the_capital = cap[0]
             message = f"The capital of {country} is {the_capital}"     
+            # message = "Hello"
         
         if "capital" in dictionary: 
             url = "https://restcountries.com/v3.1/capital/"
